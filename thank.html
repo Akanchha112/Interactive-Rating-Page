@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Overpass';
+
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        .contain {
+            font-weight: 200;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-radius: 8%;
+            height: 390px;
+            width: 400px;
+            color: white;
+            margin-top: 10%;
+            background-color:hsl(216, 12%, 8%) ;
+            background-image: linear-gradient(to right bottom, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+            word-spacing: 2px;
+            letter-spacing: 0.5px;
+            
+            
+        }
+        img{
+            /* margin-top: 10px;
+            margin-left: 90px; */
+            width: 150px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .feedn{
+            background-color: hsl(213, 19%, 18%);
+            height: 35px;
+            width: 220px;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 5px;
+            color: hsl(25, 97%, 53%); 
+            text-align: center;
+            padding-top:6px ;
+        }
+        .content{
+            font-size: 15px;
+            color: hsl(217, 12%, 63%);
+            text-align: center;
+        }
+        h2{
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <img src="./images/illustration-thank-you.svg">
+        <div class="feedn"></div>
+        <h2>Thank you!</h2>
+        <div class="content">
+            We appreciate you taking the time to give a
+            rating. If you ever need more support, don’t hesitate to get in touch!
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+<!-- 1 2 3 4 5 Submit You selected out of 5 Thank you! We appreciate you taking the time to give a
+            rating. If you ever need more support, don’t hesitate to get in touch! -->
