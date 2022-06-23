@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+        
+
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Overpass';
+
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            font-family: 'Overpass', sans-serif;
+        }
+        .contain {
+            font-family:Tahoma, Verdana, sans-serif;
+            padding: 25px;
+            flex-wrap: wrap;
+            border-radius: 8%;
+            height: 390px;
+            width: 400px;
+            color: white;
+            margin-top: 40%;
+            background-color:hsl(216, 12%, 8%) ;
+            background-image: linear-gradient(to right bottom, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+            word-spacing: 2px;
+            letter-spacing: 0.5px;
+            display: block;
+        }
+        .contain h2{
+            margin-top: 27px;
+            /* border: 1px solid red; */
+            /* margin-top: 20px; */
+        }
+        .para{
+            font-size: 15px;
+            color: hsl(217, 12%, 63%);
+            margin-top: 15px;
+        }
+        .num {
+            background-color: hsl(213, 19%, 18%);
+            color: hsl(216, 12%, 54%);
+            height: 60px;
+            width: 60px;
+            clip-path: circle(40%);
+            
+            text-align: center;
+            padding-top: 20px;
+           
+        }
+
+        .contain img {
+            /* margin-top: 20%; */
+            height: 18px;
+            /* width: 20px; */ 
+        }
+        
+        .numsub:hover{
+            cursor: pointer;
+            background-color:hsl(25, 97%, 53%); 
+            color:hsl(0, 0%, 100%);
+        }
+        .no {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+
+            
+        }
+        div div:first-child{
+            margin-left: 0px;
+        }
+        button{
+            margin-top: 20px;
+            width: 350px;
+            height: 45px;
+            color: white;
+            font-size: 16px;letter-spacing: 1.5px;
+            background-color: hsl(25, 97%, 53%);
+            border-radius: 30px;
+        }
+        .clicked{
+            background-color: hsl(217, 12%, 63%);
+            color: hsl(0, 0%, 100%);
+        }
+        button:hover{
+            color: hsl(25, 97%, 53%);
+            cursor: pointer;
+            background-color: white;
+        }
+    
+
+
+        /* Thank you page css */
+
+
+        .thank-you {
+            font-weight: 200;
+            padding: 25px;
+            display: flex;
+            /* justify-content: center; */
+            text-align: center;
+            flex-wrap: wrap;
+            border-radius: 8%;
+            height: 390px;
+            width: 400px;
+            color: white;
+            margin-top: 40%;
+            background-color:hsl(216, 12%, 8%) ;
+            background-image: linear-gradient(to right bottom, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+            word-spacing: 2px;
+            letter-spacing: 0.5px;
+            display: block;
+            
+        }
+        .thank-you img{
+            
+            /* margin-left: 0px; */
+            width: 150px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .feedn{
+            background-color: hsl(213, 19%, 18%);
+            height: 35px;
+            width: 220px;
+            border-radius: 30px;
+            margin-top: 30px;
+            margin-left: 55px;
+            color: hsl(25, 97%, 53%); 
+            text-align: center;
+            padding-top:6px ;
+        }
+        .content{
+            font-size: 15px;
+            color: hsl(217, 12%, 63%);
+            text-align: center;
+        }
+        .thank-you h2{
+            margin-top: 25px;
+            margin-bottom: 9px;
+        }
